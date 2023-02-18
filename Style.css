@@ -1,0 +1,53 @@
+html,body {
+    margin:0;
+    padding:0;
+}
+.content {
+    max-width: 1000px;
+    margin: 10px;
+}
+.table,.form {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+table, th, td {
+    border: 3px solid white;
+    border-collapse: collapse;
+    padding: 8px;
+}
+th {
+    background-color: #f4f6f1;
+}
+tr:nth-child(2) {
+    background-color: #c5d0b6;
+}
+tr:nth-child(3) {
+    background-color: #ecdeb1;
+}
+tr:nth-child(4) {
+    background-color: #dcaa91;
+}
+tr:nth-child(5) {
+    background-color: #a0b0bf;
+}
+input[type=text],input[type=password] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+button {
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+footer {
+    position: fixed;left: 0;bottom: 0;
+    width: 100%;
+    background-color: #c5d0b6;
+    color: white;
+    text-align: center;
+}
+footer p {
+    margin: 0px;
+    padding: 3px;
+}
